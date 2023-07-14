@@ -1,0 +1,211 @@
+/*----------MEDIA QUERIES---------*/
+
+@media screen and (max-width: 480px) {
+    header, #sec1, #sec2, #sec3, footer, 
+    .header-min, #sec8, #sec7 {
+        width: 100%;
+    }
+    header {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        height: 350px;
+        background-repeat: no-repeat;
+    }
+    .logo {
+        text-align: center;
+        margin-top: 15px;
+        font-size: 25px;
+        padding: 3px 8px;
+    }
+    .nav-items {
+        display: none;
+    }
+    #sec1 {
+        flex-direction: column;
+        justify-content: unset;
+        height: 730px;
+    }
+    #art1, #art2 {
+        width: 100%;
+        margin: 0;
+        height: 50%;
+    }
+    #art2 {
+        background-position:0 -175px;
+    }
+    #texto1, #texto2 {
+        margin: 46px;
+        align-items: center;
+    }
+    h1, .inicio {
+        font-size: 25px;
+        letter-spacing: 0.5rem;
+    }
+    h2, .salida {
+        font-size: 18px;
+        letter-spacing: 0.1rem;
+    }
+    p{
+        letter-spacing: 0;
+        font-weight: 400;
+    }
+    #sec3 {
+        width: 100%;
+        background-position:0 -254px;
+        background-size: contain;
+        background-blend-mode: screen;
+    }
+    .espacio {
+        font-size: 23px;
+        letter-spacing: 0.1rem;
+    }
+    .titulo {
+        padding-left: 0;
+        justify-content: center;
+    }
+    #titulo-contacto {
+        height: 150px;
+        padding: 0 25px;
+    }
+    #descripcion-contacto {
+        text-align: center;
+    }
+    .descripcion {
+        padding-right: 0;
+    }
+    #propuesta {
+        flex-wrap: nowrap;
+        align-items: center;
+        height: 1050px;
+    }
+    #propuestas {
+        height: 750px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .opciones, .actividad  {
+        margin: 0;
+    }
+    #girl, #men{
+        display: none;
+    }
+    #pilates {
+        margin-right: 70px;
+    }
+    #form-contacto {
+        margin-right: 50px;
+    }
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    #contacto {
+        margin-bottom: 30px;
+    }
+    #redes {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .nav-items {
+        margin-top: 10px;
+    }
+    #sec1 {
+        flex-direction: column;
+        justify-content: unset;
+        height: 980px;
+    }
+    #art1, #art2 {
+        width: 100%;
+        margin: 0;
+        height: 50%;
+    }
+    #art1 {
+        background-position:0 -258px;
+    }
+    #art2 {
+        background-position:0 -340px;
+    }
+    #texto1, #texto2 {
+        align-items: center;
+    }
+    #sec3 {
+        width: 100%;
+        background-position:0 -155px;
+    }
+    .titulo {
+        padding-left: 0;
+        justify-content: center;
+    }
+    .descripcion {
+        padding-right: 40%;
+    }
+    #propuesta {
+        height: 1500px;
+        align-items: center;
+    }
+    #propuestas {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 1300px;
+    }
+    .opciones, .actividad {
+        margin: 0;
+    }
+    #men {
+        margin-left: 0;
+    }
+    #pilates {
+        margin: 0;
+    }
+    footer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    #redes {
+        margin-top: 25px;
+    }
+    header, #sec1, #sec2, #sec3, footer, 
+    .header-min, #sec8, #sec7 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    header, #sec1, #sec2, #sec3, footer, 
+    .header-min, #sec8, #sec7 {
+        width: 100%;
+    }
+    #art2 {
+        background-position:0 -115px;
+    }
+    #texto1, #texto2 {
+        align-items: center;
+    }
+    h2 {
+        letter-spacing: 0.2rem;
+    }
+    p {
+        font-weight: 500;
+    }
+    .descripcion {
+        padding-right: 52%;
+    }
+    .opciones {
+        margin: 0 100px;
+    }
+    #men {
+        margin-left: -120px;
+    }
+}
